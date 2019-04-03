@@ -69,3 +69,124 @@ a{
     padding-top: 20px;
     padding-left: 100px;
 }
+/*--------------메뉴리스트---------------*/
+.menubar{
+    border:none;
+    border:0px;
+    margin:0px;
+    padding:0px;
+    font-size:14px;
+    font-weight:bold;
+    }
+    
+    .menubar ul{
+    background: white;
+    height:50px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    }
+    
+    .menubar li{
+    float:left;
+    padding:0px;
+    }
+    
+    .menubar li a{
+    background:white;
+    color:#272424;
+    display:block;
+    font-weight:normal;
+    line-height:50px;
+    margin:0px;
+    padding:0px 25px;
+    text-align:center;
+    text-decoration:none;
+    }
+    
+    .menubar li a:hover, .menubar ul li:hover a{
+    background: rgb(71,71,71);
+    color:#FFFFFF;
+    text-decoration:none;
+    }
+    
+    .menubar li ul{
+    background: rgb(145, 142, 142);
+    display:none; /* 평상시에는 드랍메뉴가 안보이게 하기 */
+    height:auto;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    position:absolute;
+    width:200px;
+    z-index:200;
+    }
+    
+    .menubar li:hover ul{
+    display:block; /* 마우스 커서 올리면 드랍메뉴 보이게 하기 */
+    }
+    
+    .menubar li li {
+    background: rgb(109,109,109);
+    display:block;
+    float:none;
+    margin:0px;
+    padding:0px;
+    width:200px;
+    }
+    
+    .menubar li:hover li a{
+    background:none;
+    }
+    
+    .menubar li ul a{
+    display:block;
+    height:50px;
+    font-size:12px;
+    font-style:normal;
+    margin:0px;
+    padding:0px 10px 0px 15px;
+    text-align:left;
+    }
+    
+    .menubar li ul a:hover, .menubar li ul li:hover a{
+    background: rgb(75, 73, 73);
+    border:0px;
+    color:#ffffff;
+    text-decoration:none;
+    }
+    
+    .menubar p{
+    clear:left;
+    }
+/*--------------메뉴리스트----------------*/
+.field {
+    position: relative;
+    padding : 20px;
+}
+
+.field img {
+  width: 250px;
+  height:300px;
+  vertical-align: middle;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  padding : 20px;
+}
+
+.field-text {
+	padding: 20px 10px;
+	background-color: white;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.16;
+  letter-spacing: -1.9px;
+  text-align: left;
+  color: #414042;
+  margin-top: -30px;
+  line-height:1.6em;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+}
