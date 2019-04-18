@@ -190,3 +190,19 @@ a{
   border-bottom-left-radius: 2em;
   border-bottom-right-radius: 2em;
 }
+
+.but1 {
+    width:150px;
+    height: 50px;
+    background-color: #614be0;
+    border: none;
+    color:#fff;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 20px;
+}
